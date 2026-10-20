@@ -17,7 +17,6 @@ The editable diagram is at [`docs/architecture.excalidraw`](docs/architecture.ex
 Flow: `User -> cli.py -> FAQBot.ask() -> Tokenizer (stopwords, stemmer, synonyms) -> BM25Retriever (scores every FAQ in data/faqs.json) -> threshold gate -> answer or fallback`.
 
 - **External APIs:** none. Runs fully offline.
-- **Storage:** two local JSON files, `data/faqs.json` (knowledge base) and `eval/eval_set.json` (labelled test queries).
 
 ## 3. Tech stack
 
