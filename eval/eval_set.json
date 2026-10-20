@@ -1,0 +1,105 @@
+[
+  {
+    "query": "I forgot my password",
+    "expected": "reset-password"
+  },
+  {
+    "query": "how can i get my money back",
+    "expected": "refund"
+  },
+  {
+    "query": "stop my subscription",
+    "expected": "cancel-sub"
+  },
+  {
+    "query": "update my email",
+    "expected": "change-email"
+  },
+  {
+    "query": "download invoice pdf",
+    "expected": "invoice"
+  },
+  {
+    "query": "can I pay with PayPal",
+    "expected": "payment-methods"
+  },
+  {
+    "query": "set up 2FA",
+    "expected": "2fa"
+  },
+  {
+    "query": "remove my account permanently",
+    "expected": "delete-account"
+  },
+  {
+    "query": "where is my certificate",
+    "expected": "certificate"
+  },
+  {
+    "query": "download lessons for offline viewing",
+    "expected": "offline"
+  },
+  {
+    "query": "when is support open",
+    "expected": "support-hours"
+  },
+  {
+    "query": "is there a discount for students",
+    "expected": "student-discount"
+  },
+  {
+    "query": "do you sell my data",
+    "expected": "data-privacy"
+  },
+  {
+    "query": "android app available?",
+    "expected": "mobile-app"
+  },
+  {
+    "query": "pricing for a company team",
+    "expected": "team-plan"
+  },
+  {
+    "query": "what is the capital of France",
+    "expected": "NONE"
+  },
+  {
+    "query": "tell me a joke",
+    "expected": "NONE"
+  },
+  {
+    "query": "who won the cricket world cup",
+    "expected": "NONE"
+  },
+  {
+    "query": "can I pay in bitcoin",
+    "expected": "NONE"
+  },
+  {
+    "query": "how do I bake a chocolate cake",
+    "expected": "NONE"
+  },
+  {
+    "query": "",
+    "expected": "NONE"
+  },
+  {
+    "query": "???",
+    "expected": "NONE"
+  },
+  {
+    "query": "how do I cancel my pizza order",
+    "expected": "NONE",
+    "known_limitation": true
+  },
+  {
+    "query": "how do I reset my wifi router",
+    "expected": "NONE",
+    "known_limitation": true
+  },
+  {
+    "query": "what is the refund policy of amazon",
+    "expected": "NONE",
+    "known_limitation": true
+  }
+]
